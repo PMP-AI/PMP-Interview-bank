@@ -1,2 +1,108 @@
 # PMP-Interview-bank
 Store interviewer answer record.
+歡迎您參加我們的技術面試。本次面試將使用 Git 進行版本控制，請依照以下步驟操作：
+
+作答環境：
+面試期間，我們已經為您開好 Python 編輯與執行環境。請在電腦上直接編寫並執行代碼。
+
+版本控制：
+請在完成所有題目後，於本專案中自行建立一個新 branch 並將您的答案 commit 並 push 到該 branch，方便我們後續審查您的程式碼與執行結果。
+
+題目 1：變數與資料型態
+題目描述：
+請解釋什麼是變數，以及 Python 中常見的資料型態有哪些？
+請撰寫一段程式碼，宣告以下變數：
+
+number 為整數 10
+pi 為浮點數 3.14
+greeting 為字串 "Hello"
+is_active 為布林值 True
+並依序輸出這些變數。
+
+預期輸出：
+
+graphql
+複製
+10 3.14 Hello True
+題目 2：流程控制—條件判斷與迴圈
+題目描述：
+請撰寫一段程式碼，利用 for 迴圈從 1 到 10 遍歷每個數字，並使用 if-else 判斷該數字是奇數或偶數，然後輸出格式如下：
+
+當數字為 1 時，輸出：1 是奇數
+當數字為 2 時，輸出：2 是偶數
+依此類推，直到 10。
+預期輸出：
+
+複製
+1 是奇數
+2 是偶數
+3 是奇數
+4 是偶數
+5 是奇數
+6 是偶數
+7 是奇數
+8 是偶數
+9 是奇數
+10 是偶數
+題目 3：函式的定義與使用
+題目描述：
+請撰寫一個 Python 函式 add_numbers，該函式接收兩個數字作為參數並回傳它們的總和。
+請呼叫該函式並傳入 3 與 4，然後輸出結果，格式如下：
+
+makefile
+複製
+總和為: 7
+預期輸出：
+
+makefile
+複製
+總和為: 7
+題目 4：資料結構—List 與 Dictionary
+題目描述：
+
+請建立一個 List fruits，內容包含 "apple", "banana", "cherry"。
+
+請先輸出原始 List。
+接著新增 "orange"，再輸出更新後的 List。
+最後，輸出 List 中第一個元素。
+請建立一個 Dictionary person，初始內容為：
+
+"name": "Alice"
+"age": 30
+"city": "Taipei"
+請輸出原始 Dictionary。
+接著將 "age" 更新為 31，再新增一個鍵值對 "job": "Engineer"，並分別輸出更新後的 "age" 與整個 Dictionary。
+預期輸出：
+
+pgsql
+複製
+原始 List: ['apple', 'banana', 'cherry']
+更新後的 List: ['apple', 'banana', 'cherry', 'orange']
+第一個水果: apple
+原始 Dictionary: {'name': 'Alice', 'age': 30, 'city': 'Taipei'}
+更新後的 age: 31
+更新後的 Dictionary: {'name': 'Alice', 'age': 31, 'city': 'Taipei', 'job': 'Engineer'}
+題目 5：檔案操作
+題目描述：
+假設有一個純文字檔案 sample.txt，其內容如下：
+
+kotlin
+複製
+Hello, this is a sample file.
+Welcome to Python programming.
+請撰寫一段 Python 程式碼，用以讀取該檔案內容並輸出到螢幕上。
+若檔案不存在，則輸出以下訊息：
+
+複製
+檔案不存在，請確認檔案名稱及路徑。
+預期輸出（檔案存在時）：
+
+kotlin
+複製
+Hello, this is a sample file.
+Welcome to Python programming.
+注意事項
+請確認您的程式碼符合題目要求，並能夠正確輸出預期結果。
+面試時您可以在電腦上直接編寫及執行代碼，測試功能是否正常。
+請在完成作答後，記得建立一個新的 branch（例如：interview-branch-您的姓名）並將您的答案 push 上傳至本 GitHub repository。
+祝您面試順利！
