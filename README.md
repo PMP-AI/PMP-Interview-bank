@@ -1,6 +1,6 @@
 # PMP-Interview-bank
 
-歡迎參加我們的技術面試。本次面試將以 Git 進行版本控制，請依照以下指示作答：
+歡迎參加我們的面試，請依照以下指示作答：
 
 ---
 
@@ -71,4 +71,54 @@
 **預期輸出：**  
 ```bash
 總和為: 7
+```
+## 題目 4：資料結構—List 與 Dictionary
+
+**題目描述：**
+
+1. **List 操作：**  
+   - 建立一個 List `fruits`，內容包含 `"apple"`, `"banana"`, `"cherry"`。  
+   - 請先輸出原始 List。  
+   - 接著新增 `"orange"`，再輸出更新後的 List。  
+   - 最後，輸出 List 中第一個元素。
+
+2. **Dictionary 操作：**  
+   - 建立一個 Dictionary `person`，初始內容如下：  
+     - `"name": "Alice"`  
+     - `"age": 30`  
+     - `"city": "Taipei"`  
+   - 請輸出原始 Dictionary。  
+   - 接著將 `"age"` 更新為 31，再新增一個鍵值對 `"job": "Engineer"`。  
+   - 分別輸出更新後的 `"age"` 與整個 Dictionary。
+
+提示：  
+利用 List 的 `append()` 方法與 Dictionary 的鍵值存取操作進行修改。
+
+**預期輸出：**  
+```terminal
+原始 List: ['apple', 'banana', 'cherry']
+更新後的 List: ['apple', 'banana', 'cherry', 'orange']
+第一個水果: apple
+原始 Dictionary: {'name': 'Alice', 'age': 30, 'city': 'Taipei'}
+更新後的 age: 31
+更新後的 Dictionary: {'name': 'Alice', 'age': 31, 'city': 'Taipei', 'job': 'Engineer'}
+```
+## 題目 5：檔案操作
+
+**題目描述：**  
+假設有一個純文字檔案 `sample.txt`，其內容如下：
+Hello, this is a sample file. Welcome to Python programming.
+請撰寫一段 Python 程式碼，用以讀取該檔案內容並輸出到螢幕上。  
+
+提示：  
+請使用 `with open()` 來讀取檔案，並利用 `try-except` 捕捉 `FileNotFoundError`。
+
+**預期輸出（檔案存在時）：**  
+```terminal
+Hello, this is a sample file.
+Welcome to Python programming.
+```
+**預期輸出（檔案不存在時）：**  
+```terminal
+檔案不存在，請確認檔案名稱及路徑。
 ```
